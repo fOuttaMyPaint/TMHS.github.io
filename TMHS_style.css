@@ -1,13 +1,40 @@
 body {
     font-family: Arial, sans-serif;
-    text-align: center;
-    margin-top: 50px;
-}
-
-h1 {
+    margin: 0;
+    padding: 0;
     color: #333;
+    background-color: #f4f4f4;
 }
 
-p {
-    font-size: 1.2em;
+header, footer {
+    background-color: #022c43;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+footer p {
+    margin: 0;
 }
